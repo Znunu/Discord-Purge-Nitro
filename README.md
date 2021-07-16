@@ -1,4 +1,4 @@
-```css
+```html
 style = `<style>
 
 button[aria-label="Open GIF picker"],               /* Remove GIF picker */
