@@ -9,13 +9,13 @@ Run the script below in the console
 ```html
 style = `<style>
   
-button[aria-label="Open sticker picker"],           /* Remove sticker picker */
-button[aria-label="Send a gift"],                   /* Remove gift button */
-div[role=tabbar]>:nth-child(n+7):nth-child(-n+12),  /* Remove nitro section in options */
-.containerExpanded-3MGTRr,                          /* Remove sticker wave option in new DMs */
-.customizationSection-2ns2M6:nth-child(2),          /* Remove banner option in profile customization */
-#private-channels-1,                                /* Remove stage channels */
-#private-channels-2,                                /* Remove the nitro tab next to friends */
+button[aria-label="Open sticker picker"],                           /* Remove sticker picker */
+button[aria-label="Send a gift"],                                   /* Remove gift button */
+div[role=tabbar]>:nth-child(n+7):nth-child(-n+12),                  /* Remove nitro section in options */
+.containerExpanded-3MGTRr,                                          /* Remove sticker wave option in new DMs */
+.customizationSection-2ns2M6:nth-child(2):not(.preview-yzOwK1),     /* Remove banner option in profile customization */
+#private-channels-1,                                                /* Remove stage channels */
+#private-channels-2,                                                /* Remove the nitro tab next to friends */
 none {display:none !important;}
 
 </style>`
