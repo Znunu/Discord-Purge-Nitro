@@ -10,4 +10,5 @@ div[role=tabbar]>:nth-child(n+7):nth-child(-n+12),                  /* Remove ni
 .closeButton-2GCmT5.
 none {display:none !important;}
 
-</style>
+</style>`
+document.head.innerHTML += style
