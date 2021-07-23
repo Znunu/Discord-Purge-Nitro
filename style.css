@@ -1,3 +1,5 @@
+style = `<style>
+  
 button[aria-label="Open sticker picker"],                           /* Remove sticker picker */
 button[aria-label="Send a gift"],                                   /* Remove gift button */
 div[role=tabbar]>:nth-child(n+7):nth-child(-n+12),                  /* Remove nitro section in options */
@@ -7,3 +9,5 @@ div[role=tabbar]>:nth-child(n+7):nth-child(-n+12),                  /* Remove ni
 #private-channels-2,                                                /* Remove the nitro tab next to friends */
 .closeButton-2GCmT5.
 none {display:none !important;}
+
+</style>
