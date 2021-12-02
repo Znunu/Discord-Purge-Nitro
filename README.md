@@ -12,7 +12,7 @@ style = `<style>
 button[aria-label="Open sticker picker"],                           /* Remove sticker picker */
 button[aria-label="Send a gift"],                                   /* Remove gift button */
 .containerExpanded-3MGTRr,                                          /* Remove sticker wave option in new DMs */
-#private-channels-2,                                                /* Remove the nitro tab next to friends */
+a[href='/store'],                                                   /* Remove the nitro tab next to friends */
 .closeButton-2GCmT5,                                                /* Remove the X to close DMs */
 .optionBox-1b4n4P:nth-child(2),                                     /* Remove the "try it out" avatar pickers */
 .customizationSection-2ns2M6:nth-child(3),                          /* Remove the profile banner in profile settings */
