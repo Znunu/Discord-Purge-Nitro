@@ -16,9 +16,9 @@ a[href='/store'],                                                   /* Remove th
 .closeButton-2GCmT5,                                                /* Remove the X to close DMs */
 .optionBox-1b4n4P:nth-child(2),                                     /* Remove the "try it out" avatar pickers */
 .customizationSection-2ns2M6:nth-child(3),                          /* Remove the profile banner in profile settings */
-div[aria-label="USER_SETTINGS"]
+div[aria-label="USER_SETTINGS"]                                     /* ▽▽▽ */
 div[role=tablist]>:nth-child(n+7):nth-child(-n+13),                 /* Remove nitro section in user options */
-div[aria-label="GUILD_SETTINGS"]
+div[aria-label="GUILD_SETTINGS"]                                    /* ▽▽▽ */
 div[role=tablist]>:nth-child(n+11):nth-child(-n+15),                /* Remove nitro section in guild options */
 none {display:none !important;}
 
