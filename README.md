@@ -30,7 +30,6 @@ Each line (which ends with a comment) is responsible for removing an element.
 The element it removes it described in the comment. 
 If you wish to keep the element, delete the line.
 For example to only remove gift button you'd have this
-
 ```html
 style = `<style>
   
@@ -40,6 +39,23 @@ none {display:none !important;}
 </style>`
 document.head.innerHTML += style
 ```
+Second example
+
+```html
+style = `<style>
+  
+button[aria-label="Open sticker picker"],                           /* Remove sticker picker */
+button[aria-label="Send a gift"],                                   /* Remove gift button */
+.containerExpanded-3MGTRr,                                          /* Remove sticker wave option in new DMs */
+a[href='/store'],                                                   /* Remove the nitro tab next to friends */
+.closeButton-2GCmT5,                                                /* Remove the X to close DMs */
+.optionBox-1b4n4P:nth-child(2),                                     /* Remove the "try it out" avatar pickers */
+none {display:none !important;}
+
+</style>`
+document.head.innerHTML += style
+```
+
 ## Before & after
 ![image](https://user-images.githubusercontent.com/61394004/137299903-5f69d92b-229d-406f-82cc-5be4d294fa1f.png)
 ![image](https://user-images.githubusercontent.com/61394004/137299912-78929f6d-147b-4225-a346-1746b03768fa.png)
